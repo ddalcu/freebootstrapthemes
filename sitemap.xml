@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    <url>
+        <loc>https://freebootstrapthemes.com/</loc>
+        <lastmod>2024-01-01</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://freebootstrapthemes.com/assets/og-image.jpg</image:loc>
+            <image:title>Free Bootstrap Themes - Download Premium Quality CSS Themes</image:title>
+            <image:caption>Premium quality Bootstrap 5.3 themes for free download</image:caption>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://freebootstrapthemes.com/themes/corporate-pro/</loc>
+        <lastmod>2024-01-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://freebootstrapthemes.com/themes/corporate-pro/preview.jpg</image:loc>
+            <image:title>Corporate Pro Bootstrap Theme</image:title>
+            <image:caption>Professional corporate theme with clean design and modern layout</image:caption>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://freebootstrapthemes.com/themes/portfolio-creative/</loc>
+        <lastmod>2024-01-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://freebootstrapthemes.com/themes/portfolio-creative/preview.jpg</image:loc>
+            <image:title>Portfolio Creative Bootstrap Theme</image:title>
+            <image:caption>Creative portfolio theme perfect for designers and developers</image:caption>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://freebootstrapthemes.com/themes/dashboard-admin/</loc>
+        <lastmod>2024-01-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://freebootstrapthemes.com/themes/dashboard-admin/preview.jpg</image:loc>
+            <image:title>Dashboard Admin Bootstrap Theme</image:title>
+            <image:caption>Modern admin dashboard theme with data visualization components</image:caption>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://freebootstrapthemes.com/themes/blog-minimal/</loc>
+        <lastmod>2024-01-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://freebootstrapthemes.com/themes/blog-minimal/preview.jpg</image:loc>
+            <image:title>Blog Minimal Bootstrap Theme</image:title>
+            <image:caption>Minimalist blog theme focused on content and readability</image:caption>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://freebootstrapthemes.com/themes/ecommerce-shop/</loc>
+        <lastmod>2024-01-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://freebootstrapthemes.com/themes/ecommerce-shop/preview.jpg</image:loc>
+            <image:title>E-commerce Shop Bootstrap Theme</image:title>
+            <image:caption>Complete e-commerce theme with product catalogs and shopping features</image:caption>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://freebootstrapthemes.com/themes/landing-page/</loc>
+        <lastmod>2024-01-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://freebootstrapthemes.com/themes/landing-page/preview.jpg</image:loc>
+            <image:title>Landing Page Bootstrap Theme</image:title>
+            <image:caption>High-converting landing page theme for marketing campaigns</image:caption>
+        </image:image>
+    </url>
+</urlset>

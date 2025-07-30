@@ -1,0 +1,59 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://freebootstrapthemes.com/sitemap.xml
+
+# Allow all search engines to crawl themes
+Allow: /themes/
+Allow: /themes/*/
+
+# Block unnecessary files
+Disallow: /*.log$
+Disallow: /assets/temp/
+Disallow: /private/
+
+# Crawl delay (optional, for being polite to crawlers)
+Crawl-delay: 1
+
+# Specific bot instructions
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+# AI/ML crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Block spam bots
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /

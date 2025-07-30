@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Shop Theme Preview</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="ecommerce-shop.css">
+    <style>
+        body { font-size: 0.85rem; }
+        .preview-container { transform: scale(0.75); transform-origin: top left; width: 133%; }
+        @media (max-width: 768px) { .preview-container { transform: scale(0.9); width: 111%; } }
+    </style>
+</head>
+<body>
+    <div class="preview-container">
+        <!-- Top Bar -->
+        <div class="top-bar">
+            <div class="container">
+                <div class="d-flex justify-content-between">
+                    <span>📞 1-800-SHOP-NOW | 📧 info@shopnow.com</span>
+                    <span>🚚 Free shipping on orders over $50</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Header -->
+        <header class="header-shop">
+            <div class="container">
+                <nav class="navbar-shop">
+                    <div class="d-flex align-items-center w-100">
+                        <a href="#" class="navbar-brand-shop">ShopNow</a>
+                        
+                        <div class="search-bar">
+                            <input type="text" class="search-input" placeholder="Search products...">
+                            <button class="search-btn">🔍</button>
+                        </div>
+                        
+                        <div class="navbar-actions">
+                            <button class="action-btn">
+                                ❤️
+                                <span class="badge">3</span>
+                            </button>
+                            <button class="action-btn">
+                                🛒
+                                <span class="badge">2</span>
+                            </button>
+                            <button class="action-btn">👤</button>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            
+            <!-- Navigation Menu -->
+            <div class="main-nav">
+                <div class="container">
+                    <div class="nav-categories">
+                        <a href="#" class="active">All Products</a>
+                        <a href="#">Electronics</a>
+                        <a href="#">Fashion</a>
+                        <a href="#">Home</a>
+                        <a href="#">Sports</a>
+                        <a href="#">Books</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero-shop">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <h1>Summer Sale 2024</h1>
+                        <p class="lead">Up to 50% off on selected items. Limited time offer!</p>
+                        <a href="#" class="btn btn-primary-shop btn-lg">Shop Now</a>
+                    </div>
+                    <div class="col-lg-6 text-center">
+                        <div style="font-size: 8rem; opacity: 0.7;">🛍️</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section class="products-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Featured Products</h2>
+                    <p class="section-subtitle">Discover our best-selling items</p>
+                </div>
+
+                <div class="filter-controls">
+                    <div class="filter-buttons">
+                        <button class="filter-btn active">All</button>
+                        <button class="filter-btn">New</button>
+                        <button class="filter-btn">Sale</button>
+                        <button class="filter-btn">Popular</button>
+                    </div>
+                    <select class="sort-select">
+                        <option>Sort by Price</option>
+                        <option>Price: Low to High</option>
+                        <option>Price: High to Low</option>
+                    </select>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div style="height: 200px; background: linear-gradient(135deg, #667eea, #764ba2); display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem;">📱</div>
+                                <span class="product-badge sale">Sale</span>
+                                <div class="product-actions">
+                                    <button class="action-icon">❤️</button>
+                                    <button class="action-icon">👁️</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-category">Electronics</div>
+                                <h5 class="product-title">
+                                    <a href="#">Smartphone Pro</a>
+                                </h5>
+                                <div class="product-rating">
+                                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                                    <span class="rating-text">(24 reviews)</span>
+                                </div>
+                                <div class="product-price">
+                                    <span class="current-price">$299</span>
+                                    <span class="original-price">$399</span>
+                                    <span class="discount">-25%</span>
+                                </div>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div style="height: 200px; background: linear-gradient(135deg, #f093fb, #f5576c); display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem;">👕</div>
+                                <span class="product-badge new">New</span>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-category">Fashion</div>
+                                <h5 class="product-title">
+                                    <a href="#">Premium T-Shirt</a>
+                                </h5>
+                                <div class="product-rating">
+                                    <div class="stars">⭐⭐⭐⭐☆</div>
+                                    <span class="rating-text">(18 reviews)</span>
+                                </div>
+                                <div class="product-price">
+                                    <span class="current-price">$29</span>
+                                </div>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div style="height: 200px; background: linear-gradient(135deg, #4facfe, #00f2fe); display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem;">🏠</div>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-category">Home</div>
+                                <h5 class="product-title">
+                                    <a href="#">Smart Home Kit</a>
+                                </h5>
+                                <div class="product-rating">
+                                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                                    <span class="rating-text">(32 reviews)</span>
+                                </div>
+                                <div class="product-price">
+                                    <span class="current-price">$199</span>
+                                </div>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <div style="height: 200px; background: linear-gradient(135deg, #a8edea, #fed6e3); display: flex; align-items: center; justify-content: center; color: #333; font-size: 3rem;">📚</div>
+                            </div>
+                            <div class="product-info">
+                                <div class="product-category">Books</div>
+                                <h5 class="product-title">
+                                    <a href="#">Design Handbook</a>
+                                </h5>
+                                <div class="product-rating">
+                                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                                    <span class="rating-text">(45 reviews)</span>
+                                </div>
+                                <div class="product-price">
+                                    <span class="current-price">$39</span>
+                                </div>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter-section">
+            <div class="container">
+                <h2>Subscribe to Our Newsletter</h2>
+                <p>Get the latest deals and updates delivered to your inbox</p>
+                <div class="newsletter-form">
+                    <input type="email" class="newsletter-input" placeholder="Enter your email">
+                    <button class="newsletter-btn">Subscribe</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer-shop">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 footer-section">
+                        <h5 class="footer-title">ShopNow</h5>
+                        <p>Your one-stop shop for everything you need.</p>
+                        <div class="social-links">
+                            <a href="#" class="social-link">📘</a>
+                            <a href="#" class="social-link">🐦</a>
+                            <a href="#" class="social-link">📷</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 footer-section">
+                        <h6 class="footer-title">Categories</h6>
+                        <ul class="footer-links">
+                            <li><a href="#">Electronics</a></li>
+                            <li><a href="#">Fashion</a></li>
+                            <li><a href="#">Home & Garden</a></li>
+                            <li><a href="#">Sports</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 footer-section">
+                        <h6 class="footer-title">Customer Service</h6>
+                        <ul class="footer-links">
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Shipping Info</a></li>
+                            <li><a href="#">Returns</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 footer-section">
+                        <h6 class="footer-title">Account</h6>
+                        <ul class="footer-links">
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#">Order History</a></li>
+                            <li><a href="#">Wishlist</a></li>
+                            <li><a href="#">Newsletter</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2024 ShopNow. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

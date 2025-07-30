@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Minimal Theme Preview</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="blog-minimal.css">
+    <style>
+        body { font-size: 0.9rem; }
+        .preview-container { transform: scale(0.8); transform-origin: top left; width: 125%; }
+        @media (max-width: 768px) { .preview-container { transform: none; width: 100%; } }
+    </style>
+</head>
+<body>
+    <div class="preview-container">
+        <!-- Header -->
+        <header class="header-minimal">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <a href="#" class="site-title">Minimal Blog</a>
+                        <div class="site-description">Thoughts on design, code, and life</div>
+                    </div>
+                    <div class="col-md-6">
+                        <nav class="nav-minimal d-flex justify-content-md-end">
+                            <a href="#" class="nav-link active">Home</a>
+                            <a href="#" class="nav-link">About</a>
+                            <a href="#" class="nav-link">Archive</a>
+                            <a href="#" class="nav-link">Contact</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <!-- Featured Article -->
+                        <article class="article-card">
+                            <div class="article-meta">
+                                <div class="article-date">📅 March 15, 2024</div>
+                                <a href="#" class="article-category">Design</a>
+                            </div>
+                            <h1 class="article-title">
+                                <a href="#">The Art of Minimalist Web Design</a>
+                            </h1>
+                            <div class="article-excerpt">
+                                Exploring the principles of minimalist design and how less can often mean more in creating impactful user experiences. When we strip away the unnecessary, we reveal the essence of what truly matters.
+                            </div>
+                            <a href="#" class="read-more">Read More →</a>
+                        </article>
+
+                        <!-- Article List -->
+                        <article class="article-card">
+                            <div class="article-meta">
+                                <div class="article-date">📅 March 12, 2024</div>
+                                <a href="#" class="article-category">Code</a>
+                            </div>
+                            <h2 class="article-title">
+                                <a href="#">Building Responsive Layouts with CSS Grid</a>
+                            </h2>
+                            <div class="article-excerpt">
+                                A comprehensive guide to using CSS Grid for creating modern, responsive web layouts that work across all devices and screen sizes.
+                            </div>
+                            <a href="#" class="read-more">Read More →</a>
+                        </article>
+
+                        <article class="article-card">
+                            <div class="article-meta">
+                                <div class="article-date">📅 March 08, 2024</div>
+                                <a href="#" class="article-category">Life</a>
+                            </div>
+                            <h2 class="article-title">
+                                <a href="#">Finding Balance in a Digital World</a>
+                            </h2>
+                            <div class="article-excerpt">
+                                Reflections on maintaining work-life balance while working in technology, and the importance of stepping away from screens to recharge.
+                            </div>
+                            <a href="#" class="read-more">Read More →</a>
+                        </article>
+
+                        <!-- Pagination -->
+                        <nav class="pagination-minimal">
+                            <a href="#">← Newer</a>
+                            <span class="current">1</span>
+                            <a href="#">2</a>
+                            <a href="#">3</a>
+                            <a href="#">Older →</a>
+                        </nav>
+                    </div>
+
+                    <!-- Sidebar -->
+                    <div class="col-lg-4">
+                        <aside class="sidebar">
+                            <!-- About Widget -->
+                            <div class="sidebar-widget">
+                                <h3 class="widget-title">About</h3>
+                                <div class="widget-content">
+                                    <p>Hi, I'm a designer and developer passionate about creating beautiful, functional experiences. This is where I share my thoughts and learnings.</p>
+                                </div>
+                            </div>
+
+                            <!-- Recent Posts -->
+                            <div class="sidebar-widget">
+                                <h3 class="widget-title">Recent Posts</h3>
+                                <div class="widget-content">
+                                    <ul>
+                                        <li><a href="#">The Art of Minimalist Web Design</a></li>
+                                        <li><a href="#">Building Responsive Layouts with CSS Grid</a></li>
+                                        <li><a href="#">Finding Balance in a Digital World</a></li>
+                                        <li><a href="#">CSS Custom Properties: A Practical Guide</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Categories -->
+                            <div class="sidebar-widget">
+                                <h3 class="widget-title">Categories</h3>
+                                <div class="widget-content">
+                                    <div class="d-flex flex-wrap gap-2">
+                                        <a href="#" class="tag">Design</a>
+                                        <a href="#" class="tag">Code</a>
+                                        <a href="#" class="tag">Life</a>
+                                        <a href="#" class="tag">Tutorials</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer-minimal">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-links">
+                        <a href="#">About</a>
+                        <a href="#">Archive</a>
+                        <a href="#">RSS</a>
+                        <a href="#">Contact</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="#">🐦</a>
+                        <a href="#">📧</a>
+                        <a href="#">💼</a>
+                        <a href="#">📷</a>
+                    </div>
+                    <p>&copy; 2024 Minimal Blog. Clean, focused writing.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

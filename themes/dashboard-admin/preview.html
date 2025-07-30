@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Admin Theme Preview</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="dashboard-admin.css">
+    <style>
+        body { 
+            font-size: 0.85rem; 
+            margin: 0;
+            padding: 0;
+        }
+        .preview-container { 
+            width: 100%; 
+            min-height: 100vh;
+        }
+        /* Adjust dashboard layout for preview */
+        .sidebar { position: relative; width: 240px; height: auto; }
+        .main-content { margin-left: 240px; }
+        .page-content { padding: 1.5rem; }
+        @media (max-width: 768px) { 
+            .sidebar { width: 100%; position: static; }
+            .main-content { margin-left: 0; }
+            .page-content { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="preview-container">
+        <div class="dashboard-wrapper">
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <div class="sidebar-header">
+                    <a href="#" class="sidebar-brand">
+                        <i>📊</i>
+                        <span>AdminPro</span>
+                    </a>
+                </div>
+                <nav class="sidebar-nav">
+                    <div class="nav-section">
+                        <div class="nav-section-title">Main</div>
+                        <div class="nav-item">
+                            <a href="#" class="nav-link active">
+                                <i>🏠</i>
+                                <span>Dashboard</span>
+                            </a>
+                        </div>
+                        <div class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i>👥</i>
+                                <span>Users</span>
+                                <span class="badge bg-primary">12</span>
+                            </a>
+                        </div>
+                        <div class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i>📈</i>
+                                <span>Analytics</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="nav-section">
+                        <div class="nav-section-title">Content</div>
+                        <div class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i>📝</i>
+                                <span>Posts</span>
+                            </a>
+                        </div>
+                        <div class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i>⚙️</i>
+                                <span>Settings</span>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </aside>
+
+            <!-- Main Content -->
+            <main class="main-content">
+                <!-- Top Navigation -->
+                <header class="topbar">
+                    <div class="topbar-nav">
+                        <button class="sidebar-toggle">☰</button>
+                        <div class="topbar-search">
+                            <input type="text" class="search-input" placeholder="Search...">
+                        </div>
+                        <div class="topbar-actions">
+                            <button class="topbar-btn">
+                                🔔
+                                <span class="badge bg-danger">3</span>
+                            </button>
+                            <div class="user-menu">
+                                <div class="user-avatar">JD</div>
+                                <span>John Doe</span>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+                <!-- Page Content -->
+                <div class="page-content">
+                    <div class="page-header">
+                        <h1 class="page-title">Dashboard</h1>
+                        <p class="page-subtitle">Welcome back! Here's what's happening.</p>
+                    </div>
+
+                    <!-- Stats Cards -->
+                    <div class="row g-4 mb-4">
+                        <div class="col-md-3">
+                            <div class="stats-card">
+                                <div class="stats-icon primary">👥</div>
+                                <div class="stats-value">2,847</div>
+                                <div class="stats-label">Total Users</div>
+                                <div class="stats-change positive">↗ +12%</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="stats-card success">
+                                <div class="stats-icon success">💰</div>
+                                <div class="stats-value">$18,624</div>
+                                <div class="stats-label">Revenue</div>
+                                <div class="stats-change positive">↗ +8%</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="stats-card warning">
+                                <div class="stats-icon warning">📦</div>
+                                <div class="stats-value">1,247</div>
+                                <div class="stats-label">Orders</div>
+                                <div class="stats-change negative">↘ -3%</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="stats-card info">
+                                <div class="stats-icon info">📊</div>
+                                <div class="stats-value">94.2%</div>
+                                <div class="stats-label">Performance</div>
+                                <div class="stats-change positive">↗ +2%</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Data Table -->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="table-dashboard">
+                                <div class="card-header">
+                                    <h5 class="mb-0">Recent Orders</h5>
+                                </div>
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Order ID</th>
+                                            <th>Customer</th>
+                                            <th>Product</th>
+                                            <th>Status</th>
+                                            <th>Amount</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>#12345</td>
+                                            <td>John Smith</td>
+                                            <td>Premium Plan</td>
+                                            <td><span class="badge-dashboard badge-success">Completed</span></td>
+                                            <td>$299</td>
+                                        </tr>
+                                        <tr>
+                                            <td>#12346</td>
+                                            <td>Sarah Johnson</td>
+                                            <td>Basic Plan</td>
+                                            <td><span class="badge-dashboard badge-warning">Pending</span></td>
+                                            <td>$99</td>
+                                        </tr>
+                                        <tr>
+                                            <td>#12347</td>
+                                            <td>Mike Davis</td>
+                                            <td>Pro Plan</td>
+                                            <td><span class="badge-dashboard badge-info">Processing</span></td>
+                                            <td>$199</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+</html>

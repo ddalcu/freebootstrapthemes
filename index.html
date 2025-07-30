@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Bootstrap Themes - Download Premium Quality CSS Themes</title>
+    <meta name="description" content="Download free Bootstrap 5.3 themes and templates. Premium quality CSS-only themes for websites, dashboards, portfolios, and more. No JavaScript required.">
+    <meta name="keywords" content="free bootstrap themes, bootstrap templates, CSS themes, bootstrap 5.3, free web templates, responsive themes, bootstrap components">
+    <meta name="author" content="Free Bootstrap Themes">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://freebootstrapthemes.com/">
+    <meta property="og:title" content="Free Bootstrap Themes - Download Premium Quality CSS Themes">
+    <meta property="og:description" content="Download free Bootstrap 5.3 themes and templates. Premium quality CSS-only themes for websites, dashboards, portfolios, and more.">
+    <meta property="og:image" content="https://freebootstrapthemes.com/assets/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://freebootstrapthemes.com/">
+    <meta property="twitter:title" content="Free Bootstrap Themes - Download Premium Quality CSS Themes">
+    <meta property="twitter:description" content="Download free Bootstrap 5.3 themes and templates. Premium quality CSS-only themes for websites, dashboards, portfolios, and more.">
+    <meta property="twitter:image" content="https://freebootstrapthemes.com/assets/og-image.jpg">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Free Bootstrap Themes",
+        "url": "https://freebootstrapthemes.com",
+        "description": "Download free Bootstrap 5.3 themes and templates. Premium quality CSS-only themes for websites, dashboards, portfolios, and more.",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Free Bootstrap Themes"
+        },
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://freebootstrapthemes.com/?search={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    
+    <!-- Custom CSS -->
+    <style>
+        :root {
+            --primary-color: #0d6efd;
+            --secondary-color: #6c757d;
+            --accent-color: #198754;
+        }
+        
+        .hero-section {
+            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            color: white;
+            padding: 100px 0;
+        }
+        
+        .theme-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: none;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+        
+        .theme-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        
+        .theme-preview {
+            height: 250px;
+            background: #f8f9fa;
+            overflow: hidden;
+            position: relative;
+            border-radius: 15px 15px 0 0;
+        }
+        
+        .theme-preview img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: all 0.3s ease;
+            border-radius: 15px 15px 0 0;
+        }
+        
+        .theme-card:hover .theme-preview img {
+            transform: scale(1.05);
+        }
+        
+        .theme-preview::after {
+            content: '\F341  Preview';
+            font-family: 'bootstrap-icons', var(--bs-font-sans-serif);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(0,0,0,0.8);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 25px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            pointer-events: none;
+        }
+        
+        .theme-card:hover .theme-preview::after {
+            opacity: 1;
+        }
+        
+        .download-btn {
+            border-radius: 25px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .stats-section {
+            background: #f8f9fa;
+            padding: 80px 0;
+        }
+        
+        .stat-item {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+        
+        .features-section {
+            padding: 80px 0;
+        }
+        
+        .feature-icon {
+            width: 80px;
+            height: 80px;
+            background: var(--primary-color);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            color: white;
+            font-size: 2rem;
+        }
+        
+        footer {
+            background: #212529;
+            color: white;
+            padding: 40px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">Free Bootstrap Themes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home"><i class="bi bi-house"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#themes"><i class="bi bi-grid"></i> Themes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features"><i class="bi bi-star"></i> Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about"><i class="bi bi-info-circle"></i> About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-4">Free Bootstrap 5.3 Themes</h1>
+                    <p class="lead mb-5">Download premium quality, responsive Bootstrap themes for free. CSS-only themes perfect for websites, dashboards, portfolios, and more. No JavaScript dependencies required.</p>
+                    <a href="#themes" class="btn btn-light btn-lg download-btn me-3">Browse Themes</a>
+                    <a href="#features" class="btn btn-outline-light btn-lg download-btn">Learn More</a>
+                </div>
+                <div class="col-lg-6">
+                    <div class="text-center">
+                        <h2 class="h4 mb-4"><i class="bi bi-palette"></i> Premium Quality Themes</h2>
+                        <p>Hand-crafted, responsive, and SEO-optimized</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 stat-item mb-4">
+                    <div class="stat-number">50+</div>
+                    <h5>Free Themes</h5>
+                    <p class="text-muted">Premium quality themes</p>
+                </div>
+                <div class="col-md-3 stat-item mb-4">
+                    <div class="stat-number">100K+</div>
+                    <h5>Downloads</h5>
+                    <p class="text-muted">Happy developers</p>
+                </div>
+                <div class="col-md-3 stat-item mb-4">
+                    <div class="stat-number">24/7</div>
+                    <h5>Available</h5>
+                    <p class="text-muted">Download anytime</p>
+                </div>
+                <div class="col-md-3 stat-item mb-4">
+                    <div class="stat-number">100%</div>
+                    <h5>Free</h5>
+                    <p class="text-muted">No hidden costs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Themes Section -->
+    <section id="themes" class="py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="display-5 fw-bold mb-4">Bootstrap Themes Collection</h2>
+                    <p class="lead text-muted">Choose from our carefully curated collection of Bootstrap 5.3 themes. Each theme is fully responsive, cross-browser compatible, and optimized for performance.</p>
+                </div>
+            </div>
+            
+            <!-- Theme Grid -->
+            <div class="row g-4" id="theme-grid">
+                <!-- Themes will be dynamically loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section bg-light">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="display-5 fw-bold mb-4">Why Choose Our Themes?</h2>
+                    <p class="lead text-muted">Professional quality themes built with modern web standards</p>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <div class="feature-icon"><i class="bi bi-phone"></i></div>
+                        <h4>Fully Responsive</h4>
+                        <p class="text-muted">Works perfectly on all devices - desktop, tablet, and mobile. Built with Bootstrap's responsive grid system.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <div class="feature-icon"><i class="bi bi-palette"></i></div>
+                        <h4>CSS Only</h4>
+                        <p class="text-muted">No JavaScript dependencies. Pure CSS themes that are lightweight and fast-loading.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <div class="feature-icon"><i class="bi bi-lightning"></i></div>
+                        <h4>SEO Optimized</h4>
+                        <p class="text-muted">Built with SEO best practices in mind. Clean code, semantic HTML, and fast loading times.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <div class="feature-icon"><i class="bi bi-gear"></i></div>
+                        <h4>Easy Customization</h4>
+                        <p class="text-muted">Well-organized CSS with CSS custom properties (variables) for easy color and style customization.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <div class="feature-icon"><i class="bi bi-globe"></i></div>
+                        <h4>Cross Browser</h4>
+                        <p class="text-muted">Tested across all modern browsers including Chrome, Firefox, Safari, and Edge.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <div class="feature-icon"><i class="bi bi-file-text"></i></div>
+                        <h4>Documentation</h4>
+                        <p class="text-muted">Each theme comes with comprehensive documentation and usage examples.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="display-5 fw-bold mb-4">About Free Bootstrap Themes</h2>
+                    <p class="lead mb-4">We provide high-quality, free Bootstrap themes for developers, designers, and businesses. Our themes are built with Bootstrap 5.3 and focus on clean code, responsive design, and modern aesthetics.</p>
+                    <p class="mb-4">All themes are CSS-only, making them lightweight and easy to integrate into any project. Whether you're building a corporate website, portfolio, dashboard, or blog, we have the perfect theme for you.</p>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success"></i> 100% Free to use</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success"></i> Commercial use allowed</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success"></i> Regular updates</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success"></i> Community support</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <div class="bg-primary p-5 rounded-3 text-white text-center">
+                        <h3 class="mb-4">Start Building Today</h3>
+                        <p class="mb-4">Join thousands of developers who trust our themes for their projects.</p>
+                        <a href="#themes" class="btn btn-light btn-lg download-btn">Download Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Free Bootstrap Themes</h5>
+                    <p class="mb-0">Premium quality Bootstrap themes for everyone. Built with love and attention to detail.</p>
+                </div>
+                <div class="col-md-6">
+                    <h6>Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#themes" class="text-light text-decoration-none"><i class="bi bi-grid"></i> Browse Themes</a></li>
+                        <li><a href="#features" class="text-light text-decoration-none"><i class="bi bi-star"></i> Features</a></li>
+                        <li><a href="#about" class="text-light text-decoration-none"><i class="bi bi-info-circle"></i> About</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2024 Free Bootstrap Themes. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="mb-0">Built with Bootstrap 5.3</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Theme Loading Script -->
+    <script>
+        // Theme data structure
+        const themes = [
+            {
+                name: "Corporate Pro",
+                description: "Professional corporate theme with clean design and modern layout",
+                category: "Business",
+                thumbnail: "themes/corporate-pro/preview.svg",
+                preview: "themes/corporate-pro/preview.html",
+                downloadUrl: "themes/corporate-pro/corporate-pro.css",
+                features: ["Responsive", "Clean", "Professional"]
+            },
+            {
+                name: "Portfolio Creative",
+                description: "Creative portfolio theme perfect for designers and developers",
+                category: "Portfolio",
+                thumbnail: "themes/portfolio-creative/preview.svg",
+                preview: "themes/portfolio-creative/preview.html",
+                downloadUrl: "themes/portfolio-creative/portfolio-creative.css",
+                features: ["Creative", "Portfolio", "Animated"]
+            },
+            {
+                name: "Dashboard Admin",
+                description: "Modern admin dashboard theme with data visualization components",
+                category: "Dashboard",
+                thumbnail: "themes/dashboard-admin/preview.svg",
+                preview: "themes/dashboard-admin/preview.html",
+                downloadUrl: "themes/dashboard-admin/dashboard-admin.css",
+                features: ["Dashboard", "Charts", "Tables"]
+            },
+            {
+                name: "Blog Minimal",
+                description: "Minimalist blog theme focused on content and readability",
+                category: "Blog",
+                thumbnail: "themes/blog-minimal/preview.svg",
+                preview: "themes/blog-minimal/preview.html",
+                downloadUrl: "themes/blog-minimal/blog-minimal.css",
+                features: ["Minimal", "Blog", "Typography"]
+            },
+            {
+                name: "E-commerce Shop",
+                description: "Complete e-commerce theme with product catalogs and shopping features",
+                category: "E-commerce",
+                thumbnail: "themes/ecommerce-shop/preview.svg",
+                preview: "themes/ecommerce-shop/preview.html",
+                downloadUrl: "themes/ecommerce-shop/ecommerce-shop.css",
+                features: ["Shop", "Products", "Cart"]
+            },
+            {
+                name: "Landing Page",
+                description: "High-converting landing page theme for marketing campaigns",
+                category: "Marketing",
+                thumbnail: "themes/landing-page/preview.svg",
+                preview: "themes/landing-page/preview.html",
+                downloadUrl: "themes/landing-page/landing-page.css",
+                features: ["Landing", "Marketing", "CTA"]
+            }
+        ];
+
+        // Load themes into grid
+        function loadThemes() {
+            const themeGrid = document.getElementById('theme-grid');
+            
+            themes.forEach(theme => {
+                const themeCard = `
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card theme-card h-100 shadow-sm">
+                            <div class="theme-preview">
+                                <img src="${theme.thumbnail}" 
+                                     alt="${theme.name} Preview" 
+                                     loading="lazy"
+                                     style="width: 100%; height: 250px; object-fit: cover; cursor: pointer;"
+                                     onclick="window.open('${theme.preview}', '_blank')">
+                            </div>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">${theme.name}</h5>
+                                <p class="card-text text-muted flex-grow-1">${theme.description}</p>
+                                <div class="mb-3">
+                                    <span class="badge bg-primary me-1">${theme.category}</span>
+                                    ${theme.features.map(feature => `<span class="badge bg-secondary me-1">${feature}</span>`).join('')}
+                                </div>
+                                <div class="d-grid gap-2">
+                                    <a href="${theme.downloadUrl}" class="btn btn-primary download-btn" download="${theme.name.toLowerCase().replace(/\s+/g, '-')}.css">
+                                        <i class="bi bi-download"></i> Download Theme
+                                    </a>
+                                    <a href="${theme.preview}" target="_blank" class="btn btn-outline-secondary btn-sm">
+                                        <i class="bi bi-eye"></i> Live Preview
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                themeGrid.innerHTML += themeCard;
+            });
+        }
+
+        // Preview theme function (now handled by direct links)
+        function previewTheme(themeName) {
+            const theme = themes.find(t => t.name === themeName);
+            if (theme) {
+                window.open(theme.preview, '_blank');
+            }
+        }
+
+        // Load themes when page loads
+        document.addEventListener('DOMContentLoaded', loadThemes);
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>

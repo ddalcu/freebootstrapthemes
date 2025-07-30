@@ -1,0 +1,22 @@
+{
+  "name": "free-bootstrap-themes",
+  "version": "1.0.0",
+  "description": "Free Bootstrap 5.3 themes for download",
+  "main": "index.html",
+  "scripts": {
+    "generate-thumbnails": "node generate-thumbnails.js",
+    "serve": "python3 -m http.server 8000 || python -m SimpleHTTPServer 8000"
+  },
+  "keywords": [
+    "bootstrap",
+    "themes",
+    "css",
+    "free",
+    "responsive"
+  ],
+  "author": "Free Bootstrap Themes",
+  "license": "MIT",
+  "devDependencies": {
+    "puppeteer": "^21.0.0"
+  }
+}
