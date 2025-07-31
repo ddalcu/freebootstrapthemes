@@ -352,6 +352,13 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateY(-2px);
 }
 
+/* Bootstrap Icons Support */
+.service-icon i,
+.social-links a i {
+    font-size: inherit;
+    line-height: inherit;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .hero-corporate h1 {

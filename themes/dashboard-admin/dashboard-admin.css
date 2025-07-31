@@ -168,7 +168,7 @@ body {
 /* Main Content */
 .main-content {
     flex: 1;
-    margin-left: 260px;
+    margin-left: 0;
     transition: margin-left 0.3s ease;
 }
 
@@ -202,6 +202,7 @@ body {
     padding: 0.5rem;
     border-radius: 0.375rem;
     transition: all 0.2s ease;
+    display: none;
 }
 
 .sidebar-toggle:hover {
@@ -522,6 +523,15 @@ body {
 .badge-info {
     background-color: #dbeafe;
     color: #1e40af;
+}
+
+/* Bootstrap Icons Support */
+.sidebar-brand i,
+.nav-link i,
+.stats-icon i,
+.topbar-btn i {
+    font-size: inherit;
+    line-height: inherit;
 }
 
 /* Responsive Design */

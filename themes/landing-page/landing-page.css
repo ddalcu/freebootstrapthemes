@@ -92,12 +92,14 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0.5rem 1rem !important;
     border-radius: 0.5rem;
     transition: all 0.2s ease;
+    text-decoration: none !important;
 }
 
 .nav-link-landing:hover,
 .nav-link-landing.active {
     color: var(--lp-primary) !important;
     background-color: var(--lp-light);
+    text-decoration: none !important;
 }
 
 /* Hero Section */
@@ -629,6 +631,13 @@ h1, h2, h3, h4, h5, h6 {
 .slide-in-right.visible {
     opacity: 1;
     transform: translateX(0);
+}
+
+/* Bootstrap Icons Support */
+.feature-icon i,
+.social-link i {
+    font-size: inherit;
+    line-height: inherit;
 }
 
 /* Responsive Design */

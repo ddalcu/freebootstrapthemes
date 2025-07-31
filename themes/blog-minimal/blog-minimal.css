@@ -497,14 +497,14 @@ a:hover {
 }
 
 .social-links a {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     width: 40px;
     height: 40px;
     background-color: var(--bm-gray-200);
     color: var(--bm-gray-600);
     border-radius: 50%;
-    text-align: center;
-    line-height: 40px;
     margin: 0 0.5rem;
     text-decoration: none;
     transition: all 0.2s ease;
@@ -604,6 +604,13 @@ a:hover {
     top: 50%;
     transform: translateY(-50%);
     color: var(--bm-gray-400);
+}
+
+/* Bootstrap Icons Support */
+.article-date i,
+.social-links a i {
+    font-size: inherit;
+    line-height: inherit;
 }
 
 /* Responsive Design */

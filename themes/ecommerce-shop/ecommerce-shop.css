@@ -132,6 +132,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     align-items: center;
     gap: 1rem;
+    margin-left: auto;
 }
 
 .action-btn {
@@ -772,6 +773,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .checkout-btn:hover {
     background-color: #059669;
+}
+
+/* Bootstrap Icons Support */
+.search-btn i,
+.action-btn i,
+.action-icon i,
+.social-link i {
+    font-size: inherit;
+    line-height: inherit;
 }
 
 /* Responsive Design */

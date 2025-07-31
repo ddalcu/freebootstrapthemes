@@ -5,18 +5,22 @@
   "main": "index.html",
   "scripts": {
     "generate-thumbnails": "node generate-thumbnails.js",
-    "serve": "python3 -m http.server 8000 || python -m SimpleHTTPServer 8000"
+    "install-puppeteer": "npm install puppeteer",
+    "serve": "python3 -m http.server 8000 || python -m SimpleHTTPServer 8000",
+    "build": "npm run generate-thumbnails && npm run serve"
   },
   "keywords": [
     "bootstrap",
     "themes",
     "css",
     "free",
-    "responsive"
+    "responsive",
+    "templates"
   ],
   "author": "Free Bootstrap Themes",
   "license": "MIT",
   "devDependencies": {
-    "puppeteer": "^21.0.0"
+    "puppeteer": "^24.15.0",
+    "sharp": "^0.34.3"
   }
 }
